@@ -1,0 +1,7 @@
+[run]
+branch = True
+source = {{cookiecutter.service_name}}client
+omit = {{cookiecutter.service_name}}client/openstack/*
+
+[report]
+ignore-errors = True
