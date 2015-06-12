@@ -1,4 +1,4 @@
-{{ cookiecutter.repo_name }} Style Commandments
+python-{{ cookiecutter.repo_name }}client Style Commandments
 ===============================================
 
 Read the OpenStack Style Commandments http://docs.openstack.org/developer/hacking/

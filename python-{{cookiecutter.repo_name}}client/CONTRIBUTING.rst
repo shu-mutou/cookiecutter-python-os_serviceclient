@@ -14,4 +14,4 @@ Pull requests submitted through GitHub will be ignored.
 
 Bugs should be filed on Launchpad, not GitHub:
 
-   https://bugs.launchpad.net/{{ cookiecutter.repo_name }}
+   https://bugs.launchpad.net/python-{{ cookiecutter.repo_name }}client

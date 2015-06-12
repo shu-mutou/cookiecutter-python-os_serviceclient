@@ -1,8 +1,8 @@
-======================
-cookiecutter-openstack
-======================
+============================
+cookiecutter-openstackclient
+============================
 
-Cookiecutter template for an OpenStack project. See https://github.com/audreyr/cookiecutter.
+Cookiecutter template for an OpenStack python client project. See https://github.com/openstack-dev/cookiecutter.
 
 * Free software: Apache license
 * pbr_: Set up to use Python Build Reasonableness
@@ -17,7 +17,7 @@ Usage
 
 Generate a Python package project::
 
-    cookiecutter https://git.openstack.org/openstack-dev/cookiecutter.git
+    cookiecutter https://github.com/shu-mutou/cookiecutter-openstackclient
 
 OpenStack projects require a working git repo for pbr to work, on newer
 versions of cookiecutter (>= 0.7.0 released 2013-11-09) this inital commit will
