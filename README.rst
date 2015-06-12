@@ -1,6 +1,6 @@
-============================
-cookiecutter-openstackclient
-============================
+=============================
+cookiecutter-os_serviceclient
+=============================
 
 Cookiecutter template for an OpenStack python client project. See https://github.com/openstack-dev/cookiecutter.
 
