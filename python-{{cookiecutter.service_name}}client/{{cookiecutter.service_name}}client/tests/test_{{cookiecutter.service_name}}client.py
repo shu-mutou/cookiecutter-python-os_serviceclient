@@ -12,8 +12,17 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-import pbr.version
+"""
+test_{{ cookiecutter.service_name }}client
+----------------------------------
+
+Tests for `{{ cookiecutter.service_name }}client` module.
+"""
+
+from {{ cookiecutter.service_name }}client.tests import base
 
 
-__version__ = pbr.version.VersionInfo(
-    '{{cookiecutter.service_name}}')client.version_string()
+class Test{{ cookiecutter.service_name|capitalize }}client(base.TestCase):
+
+    def test_something(self):
+        pass
