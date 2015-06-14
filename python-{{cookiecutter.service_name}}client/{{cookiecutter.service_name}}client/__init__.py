@@ -14,6 +14,14 @@
 
 import pbr.version
 
+from {{cookiecutter.service_name}}client import client
+from {{cookiecutter.service_name}}client import exc as exceptions
 
-__version__ = pbr.version.VersionInfo(
-    '{{cookiecutter.service_name}}')client.version_string()
+
+__version__ = pbr.version.VersionInfo('{{cookiecutter.service_name}}')client.version_string()
+
+__all__ = [
+    'client',
+    'exc',
+    'exceptions',
+]
